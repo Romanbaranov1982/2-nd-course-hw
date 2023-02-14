@@ -60,7 +60,7 @@ body {
 }
 .footer__content {
   display: flex;
-  gap: 32px;
+  gap: 30px;
 }
 .footer__content_item1 {
   width: 379px;
@@ -82,6 +82,9 @@ body {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
   background-image: url(./img/Rectangle\ 8.jpg);
   border-radius: 16px;
+}
+.footer__content_item3:hover {
+  border: 1px solid #1094e1;
 }
 
 .item_text {

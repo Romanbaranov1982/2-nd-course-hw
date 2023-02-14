@@ -60,7 +60,7 @@ color: #FFFFFF;
 
     &__content {
         display: flex;
-    gap: 32px;
+    gap: 30px;
         &_item1 {
             width: 379px;
 height: 300px;
@@ -68,12 +68,14 @@ background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(00
 background-image: url(./img/Rectangle\ 6.jpg);
 border-radius: 16px;
         }
+   
         &_item2 {
             width: 379px;
 height: 300px;
 background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
 background-image: url(./img/Rectangle\ 7.jpg);
 border-radius: 16px;
+
     }
     &_item3 {
         width: 379px;
@@ -81,7 +83,9 @@ height: 300px;
 background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
 background-image: url(./img/Rectangle\ 8.jpg);
 border-radius: 16px;
-
+&:hover {
+    border: 1px solid #1094e1;
+}
 
 }
     }
