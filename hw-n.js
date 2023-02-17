@@ -52,3 +52,19 @@ alert (num);
 let age = prompt("Сколько вам лет ?");// задание 8
 alert(age);
 */
+/*
+// задание 9
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+let user = {
+    name: "Roman",
+    age: 40, 
+    age: += 1,
+    isAdmin: false,
+    cityOfResidence: "Russia",
+}
+
+alert(user);
+*/
+
+let yourName  = prompt("Как вас зовут?" );
+alert('Привет , ${yourName} !');
