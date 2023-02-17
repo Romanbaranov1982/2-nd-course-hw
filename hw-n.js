@@ -20,3 +20,35 @@ alert(b-a);//разность
 alert(a*b);//произведение
 alert(b/a);//деление
 */
+/* задание 5
+let result = 2**5;
+alert(result);
+*/
+/*
+let a = 9;//задание 6
+let b = 2;
+alert(a%b);
+*/
+
+/*
+let num = 1;//задание 7
+
+num += 5;
+
+num -= 3;
+
+num *= 7;
+
+num /= 3;
+
+num++;
+
+num--;
+
+alert (num);
+*/
+
+/*
+let age = prompt("Сколько вам лет ?");// задание 8
+alert(age);
+*/
