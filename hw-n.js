@@ -3,6 +3,7 @@
 // alert("10");
 // let b = 20;
 //  alert("20"); 
+ 
 
 //  let firstiPhoneYear = 2007 ; Задание 2
 //  alert(firstiPhoneYear);
@@ -52,19 +53,21 @@ alert (num);
 let age = prompt("Сколько вам лет ?");// задание 8
 alert(age);
 */
-
+/*
 // задание 9
-let info = prompt("Какую информацию хотите узнать о пользователе?");
-let user = {
+const user = {
     name: "Roman",
     age: 40, 
     
     isAdmin: false,
-    cityOfResidence: "Russia",
-}
-
-alert(user);
-
+    'city Of Residence': "Russia",
+};
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user.name);
+alert(user.age);
+alert(user.isAdmin);
+alert(user['city Of Residence']);
+*/
 /*
 let yourName  = prompt("Как вас зовут?" );// задание 10
 alert(`Привет , ${yourName} !`);

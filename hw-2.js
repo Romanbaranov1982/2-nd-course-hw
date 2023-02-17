@@ -72,4 +72,3 @@ alert(user['city Of Residence']);
 let yourName  = prompt("Как вас зовут?" );// задание 10
 alert(`Привет , ${yourName} !`);
 */
-reportError
