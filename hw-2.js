@@ -52,9 +52,8 @@ alert (num);
 let age = prompt("Сколько вам лет ?");// задание 8
 alert(age);
 */
-
+/*
 // задание 9
-
 const user = {
     name: "Roman",
     age: 40, 
@@ -64,7 +63,10 @@ const user = {
 };
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 alert(user.name);
-
+alert(user.age);
+alert(user.isAdmin);
+alert(user['city Of Residence']);
+*/
 /*
 let yourName  = prompt("Как вас зовут?" );// задание 10
 alert(`Привет , ${yourName} !`);
