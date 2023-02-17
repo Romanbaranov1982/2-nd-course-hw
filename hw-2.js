@@ -3,6 +3,7 @@
 // alert("10");
 // let b = 20;
 //  alert("20"); 
+ 
 
 //  let firstiPhoneYear = 2007 ; Задание 2
 //  alert(firstiPhoneYear);
