@@ -54,16 +54,16 @@ alert(age);
 */
 
 // задание 9
-let info = prompt("Какую информацию хотите узнать о пользователе?");
-let user = {
+
+const user = {
     name: "Roman",
     age: 40, 
     
     isAdmin: false,
-    cityOfResidence: "Russia",
-}
-
-alert(user);
+    'city Of Residence': "Russia",
+};
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user.name);
 
 /*
 let yourName  = prompt("Как вас зовут?" );// задание 10
