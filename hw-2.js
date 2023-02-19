@@ -62,7 +62,7 @@ const user = {
     isAdmin: false,
     'city Of Residence': "Russia",
 };
-let info = prompt("Какую информацию хотите узнать о пользователе?");
+
 alert(user.name);
 alert(user.age);
 alert(user.isAdmin);
