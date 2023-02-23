@@ -73,3 +73,39 @@ switch (monthNumber) {
         break;
 }
 */
+/*
+let element = prompt("Пожалуйста, введите любое число");// задание 7
+console.log( !isNaN(element));
+if (element%2>0) {
+    alert('нечетное');
+} else {
+    alert('четное');
+}
+*/
+/*
+let clientOS = prompt('Введите используемую опреационную систему: 0 -  для iOS 1 - для Android');// задание 8
+if (clientOS == false) {
+    alert('Установите версию приложения для iOS по ссылке');
+} else if (clientOS == true) {
+    alert('Установите версию приложения для Android по ссылке');
+} else {
+    alert('Ошибка');
+}
+*/
+let clientOS = prompt('Введите используемую опреационную систему: 0 -  для iOS 1 - для Android');// задание 9
+let clientDeviceYear = prompt('Год выпуска телефона');
+
+if (clientOS == false) {
+    console.log('Установите версию приложения для iOS по ссылке');
+} else if (clientOS == true) {
+    console.log('Установите версию приложения для Android по ссылке');
+}
+    else if ( clientOS == false && clientDeviceYear < 2015) {
+        console.log('Установите облегченную версию приложения для iOS по ссылке');
+
+}   else if ( clientOS == true && clientDeviceYear < 2015) {
+    console.log('Установите облегченную версию приложения для Android по ссылке');
+}
+else {
+    console.log('Ошибка');
+}
