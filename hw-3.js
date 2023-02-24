@@ -1,7 +1,7 @@
 /*
 let password = 'Michael_Jordan';//  Задание 1
 let enter = prompt('Введите пароль');
-if (password = enter) {
+if (password === enter) {
     alert('Пароль введен верно');
 } else {
     alert('Пароль введен неправильно');
@@ -48,26 +48,26 @@ switch (monthNumber) {
         alert('Весна');
         break;
         case 6  :
-            alert('Лето');
-            break;
-            case 7  :
+        alert('Лето');
+        break;
+       case 7  :
                 alert('Лето');
                 break;
                 case 8  :
-            alert('Лето');
-            break;
-            case 9  :
-                alert('Осень');
-                break;
-                case 10  :
-                    alert('Осень');
-                    break;
-                    case 11  :
-                        alert('Осень');
-                        break;
-                        case 12  :
-                            alert('Зима');
-                            break;                    
+        alert('Лето');
+        break;
+        case 9  :
+        alert('Осень');
+        break;
+        case 10  :
+        alert('Осень');
+        break;
+        case 11  :
+        alert('Осень');
+        break;
+        case 12  :
+        alert('Зима');
+        break;                    
 
     default:
         break;
@@ -92,6 +92,7 @@ if (clientOS == false) {
     alert('Ошибка');
 }
 */
+
 let clientOS = prompt('Введите используемую опреационную систему: 0 -  для iOS 1 - для Android');// задание 9
 let clientDeviceYear = prompt('Год выпуска телефона');
 
@@ -100,10 +101,10 @@ if (clientOS == false) {
 } else if (clientOS == true) {
     console.log('Установите версию приложения для Android по ссылке');
 }
-    else if ( clientOS == false && clientDeviceYear < 2015) {
+    else if ( clientDeviceYear < 2015  && clientOS == false )  {
         console.log('Установите облегченную версию приложения для iOS по ссылке');
 
-}   else if ( clientOS == true && clientDeviceYear < 2015) {
+}   else if ( clientDeviceYear < 2015  && clientOS == true  ) {
     console.log('Установите облегченную версию приложения для Android по ссылке');
 }
 else {
