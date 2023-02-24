@@ -10,3 +10,19 @@
 // 	console.log(i);
 // 	i++;
 // }
+
+// let i = 7; задание 3
+
+// while (i < 23) {
+// 	console.log(i);
+// 	i++;
+// }
+
+// const mens =  {
+//     'Коля': 200,
+//     'Петя': 300,
+//     'Вася': 400
+// };// задание 4
+// for (const name in mens) {
+//     console.log(`${name} - зарплата ${mens[name]} долларов`);
+// }
