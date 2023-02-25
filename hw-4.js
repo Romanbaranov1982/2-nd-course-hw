@@ -46,3 +46,4 @@ console.log(n) ;
 //     }    
 //     friday++ ;
 // } while ( friday<=31);
+ 
