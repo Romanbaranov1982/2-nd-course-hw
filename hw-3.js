@@ -95,6 +95,7 @@ if (clientOS == false) {
 let clientOS = prompt('Введите используемую опреационную систему: 0 -  для iOS 1 - для Android');// задание 9
 let clientDeviceYear = prompt('Год выпуска телефона');
 
+
 if (clientOS == false) {
     console.log('Установите версию приложения для iOS по ссылке');
 } else if (clientOS == true) {
