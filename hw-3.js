@@ -96,17 +96,20 @@ if (clientOS == false) {
 let clientOS = prompt('Введите используемую опреационную систему: 0 -  для iOS 1 - для Android');// задание 9
 let clientDeviceYear = prompt('Год выпуска телефона');
 
-if (clientOS == false) {
-    console.log('Установите версию приложения для iOS по ссылке');
-} else if (clientOS == true) {
-    console.log('Установите версию приложения для Android по ссылке');
-}
-    else if ( clientDeviceYear < 2015  && clientOS == false )  {
-        console.log('Установите облегченную версию приложения для iOS по ссылке');
+if (!clientOS) {   
+   console.log('Установите версию приложения для iOS по ссылке');
+   if (clientDeviceYear < 2015) {
+    console.log('Установите облегченную версию приложения для iOS по ссылке');
 
-}   else if ( clientDeviceYear < 2015  && clientOS == true  ) {
-    console.log('Установите облегченную версию приложения для Android по ссылке');
+   }
+} else if (clientOS) {    
+    console.log('Установите версию приложения для Android по ссылке');
+    if (clientDeviceYear < 2015) {
+        console.log('Установите облегченную версию приложения для Android по ссылке');
 }
+    }     
+
+      
 else {
     console.log('Ошибка');
 }
