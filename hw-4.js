@@ -26,3 +26,14 @@
 // for (const name in mens) {
 //     console.log(`${name} - зарплата ${mens[name]} долларов`);
 // }
+
+/*
+let n = 1000;// задание 5
+let num = 5;
+do {   
+console.log(n) ;
+ n/=2; 
+ } while (n>50);
+ console.log(`Деление выполняется ${num} раз`);
+*/
+
