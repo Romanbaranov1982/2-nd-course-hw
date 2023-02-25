@@ -37,3 +37,10 @@ console.log(n) ;
  console.log(`Деление выполняется ${num} раз`);
 */
 
+//  let friday = 1;// задание 6
+// do {
+//     if (friday % 7 == 1) {
+//         console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+//     }    
+//     friday++ ;
+// } while ( friday<=31);
