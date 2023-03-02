@@ -56,3 +56,14 @@
     
 // }
 // split(a, b);
+
+// let num = prompt('Введите любое число');// задание 6
+// let degree = num**3;
+// function somethinck(num) {
+//    if (isNaN (num)) {
+//     console.log('Переданный параметр не является числом');
+//    } else {  
+//    console.log(`${num} в кубе равняется ${degree} `); 
+//    } 
+// }
+// somethinck(num);
