@@ -122,40 +122,40 @@ body {
   margin-left: 32px;
 }
 
-.seasons {
+.season {
   height: 800px;
   background: #000915;
   box-sizing: border-box;
   padding-bottom: 235px;
   padding-top: 235px;
 }
-.seasons__content {
+.season__content {
   display: flex;
   -moz-column-gap: 135px;
        column-gap: 135px;
 }
-.seasons__content_box_left {
+.season__content_box_left {
   width: 584px;
 }
-.seasons__content_box_left_header {
+.season__content_box_left_header {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
   color: #FFFFFF;
 }
-.seasons__content_box_left_text {
+.season__content_box_left_text {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
 }
-.seasons__content_box_left_button {
+.season__content_box_left_button {
   width: 234.06px;
   height: 48.6px;
   background: #0ce622;
   border-radius: 30px;
 }
-.seasons__content_box_right {
+.season__content_box_right {
   width: 485px;
 }
 
