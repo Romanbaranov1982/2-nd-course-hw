@@ -31,3 +31,28 @@
         
 // }
 // console.log(enyNumb(7));
+
+// let age =prompt('Сколько тебе лет ?'); // задание 4
+//    function yourAge(age)  {
+//     if (age < 0) {
+//         alert('Вы ввели неправильное значение');
+//     } else if(age <=12 ) {
+//         alert ('Привет, друг!');    
+//     } else if (age > 13) {
+//         alert ('Добро пожаловать !');
+//     }
+    
+// }
+// yourAge(age);
+
+// let a = prompt('Введите любое число'); // задание 5
+// let b = prompt('Введите любое число');
+// function split (a, b) {
+//     if (isNaN (a) || isNaN(b)) {
+//         console.log('Одно или оба значения не являются числом');
+//     } else {
+//         console.log(a * b);
+//     }
+    
+// }
+// split(a, b);
