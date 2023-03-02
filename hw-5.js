@@ -72,13 +72,13 @@ let monthNumber = prompt('Введите номер месяца');
 function season(monthNumber) {
     if (isNaN(monthNumber)) {
         alert('Введено некорректное значение')
-    } if else (monthNumber === 12 || monthNumber <= 2) {
+    } else if  (monthNumber === 12 || monthNumber <= 2) {
         alert ('Зима');
-    } if (monthNumber >=3 && monthNumber <= 5) {
+    } else if (monthNumber >=3 && monthNumber <= 5) {
         alert('Весна');
-    } if (monthNumber >= 6 && monthNumber <= 8) {
+    } else if (monthNumber >= 6 && monthNumber <= 8) {
         alert('Лето');
-    } if else (monthNumber >=9 && monthNumber <= 11) {
+    } else if  (monthNumber >=9 && monthNumber <= 11) {
         alert('Осень');
     }
 }
