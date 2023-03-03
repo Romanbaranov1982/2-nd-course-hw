@@ -68,6 +68,68 @@
 // }
 // somethinck(num);
 
+// function season() {
+    //     let monthNumber = prompt('Введите номер месяца');
+    //     if (isNaN(monthNumber) || monthNumber > 13 || monthNumber <= 0) {
+    //         alert('Введено некорректное значение')
+    //     } else if  (monthNumber === 12 || monthNumber <= 2) {
+    //         alert ('Зима');
+    //     } else if (monthNumber >=3 && monthNumber <= 5) {
+    //         alert('Весна');                           // Задание 7
+    //     } else if (monthNumber >= 6 && monthNumber <= 8) {
+    //         alert('Лето');
+    //     } else if  (monthNumber >=9 && monthNumber <= 11) {
+    //         alert('Осень');
+    //     }
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function season() {
 //     let monthNumber = prompt('Введите номер месяца');
