@@ -1,3 +1,4 @@
+
 // let talk = 1;// задание 1
 // while (talk<3) {
 //     console.log('Привет !');
@@ -43,4 +44,8 @@ console.log(n) ;
 //         console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
 //     }    
 //     friday++ ;
+
 // } while ( friday<=31);
+
+// } while ( friday<=31);
+
