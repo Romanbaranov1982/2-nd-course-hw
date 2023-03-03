@@ -131,8 +131,14 @@ padding-top: 235px;
 &__content {
     display: flex;
     column-gap: 135px;
+
     &_box_left{
         width: 584px;
+        height: 235.6px;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
         &_header {
             font-weight: 700;
             font-size: 48px;
@@ -148,7 +154,8 @@ color: #FFFFFF;
         &_button {
             width: 234.06px;
 height: 48.6px;
-background: #0ce622;
+background:  #9C0332;
+;
 border-radius: 30px;
         }
     }
