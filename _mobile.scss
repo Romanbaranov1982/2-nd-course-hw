@@ -39,7 +39,7 @@ height: 77.44px;
             }
       }
 }
-.footer {
+.games {
     height: 1221px;
     
     &__content {
@@ -54,5 +54,59 @@ height: 77.44px;
             width: 343px;
         }
     }
+}
+.season {
+   
+background: #000915;
+box-sizing: border-box;
+padding-bottom: 85px;
+padding-top: 50px;
+&__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+
+    &_box_left{
+        width: 343px;
+        height: 217px;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+ 
+        &_header {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 59px;                     
+            color: #FFFFFF; 
+            text-align: center; 
+        }
+        &_text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+color: #FFFFFF;
+text-align: center;
+        }
+        &_button  {
+            width: 234.06px;
+height: 48.6px;
+background:  #9C0332;
+text-align: center;
+border-radius: 30px;
+
+        }
+    }
+ &_box_right {
+    width: 344px;
+height: 236px;
+&_img {
+    width: 344px;
+height: 236px;
+}
+ }   
+}
 }
 }
