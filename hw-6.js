@@ -23,5 +23,41 @@
 // let arr = [9, 8, 7, 'a', 6, 5];// задание 6
 // arr = arr.sort();
 // console.log(arr);
-// console.log(arr.pop());
+// console.log(arr.pop());//  Вопрос: Можно ли сделать так, чтобы 'a' не выводилось в консоль ???
 // console.log(arr);
+
+// let arr = [9, 8, 7, 6, 5]; // Задание 7
+// let numb = prompt('Введите число от одного до десяти');
+// let search = arr.includes(numb);
+// console.log(search);
+ 
+// let arr = 'abcdef';// Задание 8
+// arr = arr.split(''); 
+// console.log(arr);
+// arr = arr.reverse();
+// console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function search(numb, ) {    
+
+// if (arr.includes(numb) === true ) {
+//     console.log('Число содержится в массиве');
+// } else {
+//     console.log('Число не содержится в массиве');
+// }
+// }
+// search(numb);
