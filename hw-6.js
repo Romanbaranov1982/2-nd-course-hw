@@ -76,13 +76,3 @@
 
 
 
-
-// function search(numb, ) {    
-
-// if (arr.includes(numb) === true ) {
-//     console.log('Число содержится в массиве');
-// } else {
-//     console.log('Число не содержится в массиве');
-// }
-// }
-// search(numb);
