@@ -28,7 +28,7 @@
 
 // let arr = [9, 8, 7, 6, 5]; // Задание 7
 // let numb = prompt('Введите число от одного до десяти');
-// let search = arr.includes(numb);
+// let search = arr.includes(Number(numb));
 // console.log(search);
  
 // let arr = 'abcdef';// Задание 8
@@ -36,6 +36,20 @@
 // console.log(arr);
 // arr = arr.reverse();
 // console.log(arr);
+
+// let order = [[1, 2, 3,],[4, 5, 6]]; // задание 9
+// order.flat();
+// console.log(order.flat());
+
+
+// let arr = [ 1, 3, 5, 7, 9];// задание 10
+// for (let i = 0; i < (arr.length - 1); i++) {
+//     let a = arr[i];
+//     let b = arr[i+1];
+//     let sum = a + b;
+//     console.log(sum);
+   
+// }
 
 
 
