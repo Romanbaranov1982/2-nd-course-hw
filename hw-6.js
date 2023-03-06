@@ -16,6 +16,17 @@
 //  numbs = numbs.join(' ');
 //  console.log(numbs);
 
+// let arr = []; задание 4
+
+// for (let i = 0; i < 3; i++) {
+// 	arr[i] = []; 
+	
+// 	for (let j = 0; j < 3; j++) {
+// 		arr[i].push(1,);
+			
+// 	}
+// }
+// console.log(arr);
 // let arrow = [1, 1, 1]; //Задание 5
 // arrow.push(2, 2, 2);
 // console.log(arrow);
