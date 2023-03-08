@@ -1,12 +1,13 @@
 // const numbs = [1, 5, 4, 10, 0, 3];// Задание 1
 
 // for (let i = 0; i < numbs.length; i++) {
-// 	if (numbs[i] == 10) break;
 // 	console.log(numbs[i]);
+// 	if (numbs[i] == 10) break;
+	
 // }
  
 // const numbs = [1, 5, 4, 10, 0, 3];// Задание 2
-
+// console.log(numbs.indexOf(4));// или
 // numbs.forEach((el , index) => {
 //     if (el === 4) {console.log(`${index}`);
 // }
@@ -22,7 +23,7 @@
 // 	arr[i] = []; 
 	
 // 	for (let j = 0; j < 3; j++) {
-// 		arr[i].push(1,);
+// 		arr[i].push(1);
 			
 // 	}
 // }
@@ -33,8 +34,7 @@
 
 // let arr = [9, 8, 7, 'a', 6, 5];// задание 6
 // arr = arr.sort();
-// console.log(arr);
-// console.log(arr.pop());//  Вопрос: Можно ли сделать так, чтобы 'a' не выводилось в консоль ???
+// (arr.pop());//  Вопрос: Можно ли сделать так, чтобы 'a' не выводилось в консоль ???
 // console.log(arr);
 
 // let arr = [9, 8, 7, 6, 5]; // Задание 7
@@ -61,9 +61,6 @@
 //     console.log(sum);
    
 // }
-
-
-
 
 
 
