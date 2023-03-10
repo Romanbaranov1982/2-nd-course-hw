@@ -54,23 +54,31 @@
 // let nowDate = new Date(); //задача 8
 // console.log(nowDate);
 
-// let currentDate = new Date();
-// let futureDate = (getDate) => {
-//     currentDate.setDate(73);
-// }
-// console.log(futureDate());
+// let currentDate = new Date();// задача 9
+// let n = 73 ;
+// currentDate.setDate(n);
+// console.log(currentDate);
 
-// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-// // создадим массив, где будем хранить названия месяцев на русском
+//задание 10
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда",  "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+// "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+// let myDate = new Date();
+// let fullDate = "Дата :" + myDate.getDate() +  ' ' + months[myDate.getMonth()] + 'а'  + " " + myDate.getFullYear() + ' - это ' + days[myDate.getDay()] + '. ' + "Время:" +  myDate.getHours() + ' :' + myDate.getMinutes() + ' :' + myDate.getSeconds() + '.';
+// console.log(fullDate);
+
+// задание 10 пытался сделать функцией но не работает. Подскажите ???
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда",  "Четверг", "Пятница", "Суббота"];
 // const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
 // "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
 // let myDate = new Date();
 // let message = (myDate, fullDate) => {
-// fullDate = "Дата :" + myDate.getDate() + months[myDate.getMonth()] + " " + myDate.getFullYear() + ' - это ' + days[myDate.getDay()] + ' .' + "Время :" +  myDate.getHours() + ' :' + myDate.get.Minutes() + ' :' + myDate.getSeconds() + '.';
-// }
-// // console.log(message());
-// console.log(fullDate);
+// fullDate = "Дата :" + myDate.getDate() + months[myDate.getMonth()] + " " + myDate.getFullYear() + ' - это ' + days[myDate.getDay()] + ' .' + "Время :" +  myDate.getHours() + ' :' + myDate.getMinutes() + ' :' + myDate.getSeconds() + '.';
+// };
+// console.log(message());
+
 
 
 
