@@ -79,6 +79,23 @@
 // };
 // console.log(message());
 
+let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+console.log(arr);
+let newArr = arr.sort(() => Math.random() - 0.5);
+console.log(newArr);
+let userAnswer = prompt('Чему равнялся первый элемент массива?');
+let userAnswerTwo = prompt('Чему равнялся последний элемент массива?');
+let result = arr[0] ;
+let resultTwo = arr[arr.length - 1];
+// console.log(arr[arr.length - 1]);
+// console.log(arr[0]);
+if (userAnswer === result && userAnswerTwo === resultTwo ) {
+    console.log('Поздравляем ! Вы угадали оба элемента !!!');
+} else if (userAnswer === result || userAnswerTwo === resultTwo) {
+    console.log('Вы были близки к победе!');
+} else  {
+    console.log('Вы не угадали');
+};
 
 
 
