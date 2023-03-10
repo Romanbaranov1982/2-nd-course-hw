@@ -1,18 +1,12 @@
 // let str = 'js';// задание 1
 // console.log(str.toUpperCase());
 
-// let a = ['бобёр', 'Боб', 'большой', 'Борис',
+// let arr = ['бобёр', 'Боб', 'большой', 'Борис',
 // 'Бобби'];
-// let b = 'боб';
-// let newArr = [];
+// let str = 'боб';        // задание 2
+// let newArr = arr.filter(el => el.toLowerCase().startsWith(str.toLowerCase()));
+// console.log(newArr);
 
-// let searchStart = (a, b) => {
-//     if (a.toLowerCase().startsWith(b.toLowerCase() || a.filter() === String)) {
-// newArr.push(searchStart);
-//       console.log(newArr);
-//     }        
-//     };
-// searchStart(); 
 
 // let numb = 32.58884 ;// задание 3
 // console.log(Math.ceil(numb));
@@ -79,26 +73,49 @@
 // };
 // console.log(message());
  
-// Задание 11
-let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-console.log(arr);
-let newArr = arr.sort(() => Math.random() - 0.5);
-console.log(newArr);
-let userAnswer = prompt('Чему равнялся первый элемент массива?');
-let userAnswerTwo = prompt('Чему равнялся последний элемент массива?');
-let result = 'Яблоко';
-let resultTwo = 'Мандарин';
-// let result = arr[0] ;// почему не работает этот вариант ?
-// let resultTwo = arr[arr.length - 1];// почему не работает этот вариант ?
-// console.log(arr[arr.length - 1]);
-// console.log(arr[0]);
-if (userAnswer.toLowerCase === result.toLowerCase && userAnswerTwo.toLowerCase === resultTwo.toLowerCase ) {
-    console.log('Поздравляем ! Вы угадали оба элемента !!!');
-} else if (userAnswer.toLowerCase === result.toLowerCase || userAnswerTwo.toLowerCase === resultTwo.toLowerCase) {
-    console.log('Вы были близки к победе!');
-} else  {
-    console.log('Вы не угадали');
-};
+// // Задание 11
+// let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+// console.log(arr);
+// let newArr = arr.sort(() => Math.random() - 0.5);
+// console.log(newArr);
+// let userAnswer = prompt('Чему равнялся первый элемент массива?');
+// let userAnswerTwo = prompt('Чему равнялся последний элемент массива?');
+// let result = 'Яблоко';
+// let resultTwo = 'Мандарин';
+// // let result = arr[0] ;// почему не работает этот вариант ?
+// // let resultTwo = arr[arr.length - 1];// почему не работает этот вариант ?
+// // console.log(arr[arr.length - 1]);
+// // console.log(arr[0]);
+// if (userAnswer.toLowerCase === result.toLowerCase && userAnswerTwo.toLowerCase === resultTwo.toLowerCase ) {
+//     console.log('Поздравляем ! Вы угадали оба элемента !!!');
+// } else if (userAnswer.toLowerCase === result.toLowerCase || userAnswerTwo.toLowerCase === resultTwo.toLowerCase) {
+//     console.log('Вы были близки к победе!');
+// } else  {
+//     console.log('Вы не угадали');
+// };
+
+// Задание 11 с фунцией
+
+
+
+// function fruits () {
+//   let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+// console.log(arr);
+// let newArr = arr.sort(() => Math.random() - 0.5);
+// console.log(newArr);
+// let userAnswer = prompt('Чему равнялся первый элемент массива?');
+// let userAnswerTwo = prompt('Чему равнялся последний элемент массива?');
+// let result = 'Яблоко';
+// let resultTwo = 'Мандарин';  
+// if (userAnswer.toLowerCase() === result.toLowerCase() && userAnswerTwo.toLowerCase() === resultTwo.toLowerCase() ) {
+//     console.log('Поздравляем ! Вы угадали оба элемента !!!');
+// } else if (userAnswer.toLowerCase() === result.toLowerCase() || userAnswerTwo.toLowerCase() === resultTwo.toLowerCase()) {
+//     console.log('Вы были близки к победе!');
+// } else  {
+//     console.log('Вы не угадали');
+// };
+// };
+
 
 
 
