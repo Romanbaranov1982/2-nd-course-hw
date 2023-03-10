@@ -78,7 +78,8 @@
 // fullDate = "Дата :" + myDate.getDate() + months[myDate.getMonth()] + " " + myDate.getFullYear() + ' - это ' + days[myDate.getDay()] + ' .' + "Время :" +  myDate.getHours() + ' :' + myDate.getMinutes() + ' :' + myDate.getSeconds() + '.';
 // };
 // console.log(message());
-
+ 
+// Задание 11
 let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 console.log(arr);
 let newArr = arr.sort(() => Math.random() - 0.5);
