@@ -18,32 +18,50 @@
 // console.log(Math.min(...numArray));// минимальное
  
 // function rundomNumber(min, max) {// задание 5
-//     min = Math.ceil(1);
-//     max = Math.floor(10);
+  
 //     return Math.floor(Math.random() * (max - min + 1)) + min;
 // }
-// console.log(rundomNumber());
+// console.log(rundomNumber( 1, 10));
 
-// let inNumb = prompt('Ведите любое число'); задача 6
-// let arrayN = [];
-// let getRandomArrNumbers  = (i) => {
-//        do {
-//         let i = Math.round((Math.random() * inNumb));
-//        arrayN.push(i);
-//        } while (arrayN.length <= (inNumb / 2) - 1);// почему работает только с ''-1'' ???
-// };
-// getRandomArrNumbers();
-// console.log(arrayN);
 
-// let min = prompt('Введите любое число');// задача 7
-// let max = prompt('Введите любое число');
 
-// let randomNumb = (min, max) => {
-//     min = Math.ceil(min);
-//   max = Math.floor(max);
-//   return Math.floor(Math.random() * (max - min)) + min;
+let randomNumb = (min, max) => {  
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }; 
+let inNumb = randomNumb(0, 20); //задача 6
+
+let arrayN = [];
+let getRandomArrNumbers  = (i) => {
+       do {
+        let i = Math.round((Math.random() * inNumb));
+       arrayN.push(i);
+       } while (arrayN.length <= (inNumb / 2) - 1);
+};
+getRandomArrNumbers();
+console.log(inNumb);
+console.log(arrayN);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let a = +prompt('Введите любое число');// задача 7
+// let b = +prompt('Введите любое число');
+
+// let randomNumb = (min, max) => {    
+
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
 // }
-// console.log(randomNumb(min, max));
+// console.log(randomNumb(a, b));
 
 // let nowDate = new Date(); //задача 8
 // console.log(nowDate);
@@ -71,7 +89,7 @@
 // let message = (myDate, fullDate) => {
 // fullDate = "Дата :" + myDate.getDate() + months[myDate.getMonth()] + " " + myDate.getFullYear() + ' - это ' + days[myDate.getDay()] + ' .' + "Время :" +  myDate.getHours() + ' :' + myDate.getMinutes() + ' :' + myDate.getSeconds() + '.';
 // };
-// console.log(message());
+// console.log(message(myDate, fullDate));
  
 // // Задание 11
 // let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
@@ -98,23 +116,23 @@
 
 
 
-function fruits () {
-  let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-console.log(arr);
-let newArr = [...arr].sort(() => Math.random() - 0.5);
-console.log(newArr);
-let userAnswer = prompt('Чему равнялся первый элемент массива?');
-let userAnswerTwo = prompt('Чему равнялся последний элемент массива?');
- let result = arr[0] ;// почему не работает этот вариант ?
-let resultTwo = arr[arr.length - 1];// почему не работает этот вариант ?
-if (userAnswer.toLowerCase() === result.toLowerCase() && userAnswerTwo.toLowerCase() === resultTwo.toLowerCase() ) {
-    console.log('Поздравляем ! Вы угадали оба элемента !!!');
-} else if (userAnswer.toLowerCase() === result.toLowerCase() || userAnswerTwo.toLowerCase() === resultTwo.toLowerCase()) {
-    console.log('Вы были близки к победе!');
-} else  {
-    console.log('Вы не угадали');
-};
-};
+// function fruits () {
+//   let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+// console.log(arr);
+// let newArr = [...arr].sort(() => Math.random() - 0.5);
+// alert(newArr);
+// let userAnswer = prompt('Чему равнялся первый элемент массива?');
+// let userAnswerTwo = prompt('Чему равнялся последний элемент массива?');
+//  let result = newArr[0] ;// почему не работает этот вариант ?
+// let resultTwo = newArr[arr.length - 1];// почему не работает этот вариант ?
+// if (userAnswer.toLowerCase() === result.toLowerCase() && userAnswerTwo.toLowerCase() === resultTwo.toLowerCase() ) {
+//     alert('Поздравляем ! Вы угадали оба элемента !!!');
+// } else if (userAnswer.toLowerCase() === result.toLowerCase() || userAnswerTwo.toLowerCase() === resultTwo.toLowerCase()) {
+//     alert('Вы были близки к победе!');
+// } else  {
+//     alert('Вы не угадали');
+// };
+// };
 
 
 
