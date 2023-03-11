@@ -11,3 +11,20 @@
 
 // } ;
 // result(mult, arr); 
+
+// задание 2
+// function compareUser(a, b) { 
+// 	if (a.age > b.age) return 1;
+// 	if (a.age < b.age) return -1;
+// 	return 0;
+// }
+// const users = [
+// 	{name: 'Jon', age: 22},
+// 	{name: 'Richard', age: 18},
+// 	{name: 'Anton', age: 32},
+// 	{name: 'Lida', age: 23},
+// 	{name: 'Bob', age: 44}
+// ];
+//  let getSortedArrayObj =  users.sort(compareUser);
+// console.log(getSortedArrayObj);
+
