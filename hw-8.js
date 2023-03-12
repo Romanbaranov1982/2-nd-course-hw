@@ -28,29 +28,20 @@
 //  let getSortedArrayObj =  users.sort(compareUser);
 // console.log(getSortedArrayObj);
 
+// задание 3
 // let arr = [1, '4', false, 9, 'two'];
-// // console.log(arr);
-// // const reversArr = arr.reverse();
-// let filterArr = arr.map((el) => (+el) != NaN);
-// // let filterArr = Number(arr);
-// // let numberArr = [];
-// // for (let el of arr){
-// //    for (let el = 0; el < arr.length; el++) {
-// //      Number(el); 
-// //      if (Number(el) !== NaN) {
-// //         numberArr.push(el);
-// //      }
-// // }
-    
-// // }
+// console.log(arr);
+// // // const reversArr = arr.reverse();
+// let filterArr = arr.map((el) => +el ).filter((el) => !isNaN(el));
 
-// // console.log(numberArr);
 // console.log(filterArr);
 
-setTimeout(() => { clearInterval(timerId); alert(endMessage); }, 5000);
-let date = new Date();
-let endMessage = "30 секунд прошло";
-let time = () => {
-    console.log(date);
-}
-let timerId = setInterval((time), 1000);
+
+// задание 4
+// setTimeout(() => { clearInterval(timerId); alert(endMessage); }, 30000);
+// let date = new Date();
+// let endMessage = "30 секунд прошло";
+// let time = () => {
+//     console.log(date);
+// }
+// let timerId = setInterval((time), 3000, );
