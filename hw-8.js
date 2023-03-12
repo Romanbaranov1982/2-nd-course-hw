@@ -45,3 +45,28 @@
 //     console.log(date);
 // }
 // let timerId = setInterval((time), 3000, );
+
+// function calling() {
+//     console.log('Звоню!')
+// };
+
+
+// задание 5
+// function calling() {
+//     console.log('Звоню!')
+// };
+
+// function beeps() {
+//         setTimeout(talk, 1000);
+//     console.log('Идут гудки...')
+
+// }
+
+// function talk() {
+//     console.log('Разговор')
+// }
+
+// calling();
+// beeps(talk);
+
+
