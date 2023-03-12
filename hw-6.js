@@ -53,14 +53,14 @@
 // console.log(order.flat());
 
 
-// let arr = [ 1, 3, 5, 7, 9];// задание 10
-// for (let i = 0; i < (arr.length - 1); i++) {
-//     let a = arr[i];
-//     let b = arr[i+1];
-//     let sum = a + b;
-//     console.log(sum);
+let arr = [ 1, 3, 5, 7, 9];// задание 10
+for (let i = 0; i < (arr.length - 1); i++) {
+    let a = arr[i];
+    let b = arr[i+1];
+    let sum = a + b;
+    console.log(sum);
    
-// }
+}
 
 
 

@@ -164,4 +164,43 @@ border-radius: 30px;
  }   
 }
 }
+.words {
+    height: 800px;
+background: #000915;
+box-sizing: border-box;
+padding-bottom: 239px;
+padding-top: 239px;
+&__content {
+    display: flex;
+    column-gap: 135px;
+ &_box_left {
+    width: 481px;
+ }  
+ &_box_right {
+    width: 588px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    &_header {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;                     
+        color: #FFFFFF;      
+    }
+    &_text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;      
+    }
+  &_btn {
+    width: 234.06px;
+    height: 48.6px;
+    background:  #9C0332;
+    border-radius: 30px;   
+  }  
+ } 
+}
+}
 @import 'mobile';
